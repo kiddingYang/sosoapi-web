@@ -205,7 +205,7 @@
 		var _hmt = _hmt || [];
 		(function() {
 		  var hm = document.createElement("script");
-		  hm.src = "//hm.baidu.com/hm.js?b6d830db139defa52e47fb1dc0018c06";
+		 /*  hm.src = "//hm.baidu.com/hm.js?b6d830db139defa52e47fb1dc0018c06"; */
 		  var s = document.getElementsByTagName("script")[0]; 
 		  s.parentNode.insertBefore(hm, s);
 		})();

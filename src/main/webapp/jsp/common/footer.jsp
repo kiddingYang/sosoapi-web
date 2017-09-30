@@ -27,34 +27,34 @@
    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<!-- <script type="text/javascript" src="plugin/jquery-2.0.3.min.js"></script> -->
-<script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="plugin/jquery-2.0.3.min.js"></script>
+<!-- <script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script> -->
 
-<!-- <script type="text/javascript" src="plugin/bootstrap/js/bootstrap.min.js"></script> -->
-<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-<!-- <script type="text/javascript" src="plugin/bootstrap/js/twitter-bootstrap-hover-dropdown.min.js"></script> -->
-<script src="//cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
-
-<!-- <script type="text/javascript" src="plugin/validator/js/bootstrapValidator.min.js"></script> -->
-<script src="//cdn.bootcss.com/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
-
-<!-- <script type="text/javascript" src="plugin/form/js/jquery.form.js"></script> -->
-<script src="//cdn.bootcss.com/jquery.form/3.51/jquery.form.min.js"></script>
-
-<!-- <script type="text/javascript" src="plugin/chosen/chosen.jquery.min.js"></script> -->
-<script src="//cdn.bootcss.com/chosen/1.4.2/chosen.jquery.min.js"></script>
-
-<!-- <script type="text/javascript" src="plugin/summernote/js/summernote.min.js"></script> -->
-<script src="//cdn.bootcss.com/summernote/0.6.16/summernote.min.js"></script>
+<script type="text/javascript" src="plugin/bootstrap/js/bootstrap.min.js"></script>
+<!-- <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ -->
+<script type="text/javascript" src="plugin/bootstrap/js/twitter-bootstrap-hover-dropdown.min.js"></script>
+<!-- <script src="//cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+ -->
+<script type="text/javascript" src="plugin/validator/js/bootstrapValidator.min.js"></script>
+<!-- <script src="//cdn.bootcss.com/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+ -->
+<script type="text/javascript" src="plugin/form/js/jquery.form.js"></script>
+<!-- <script src="//cdn.bootcss.com/jquery.form/3.51/jquery.form.min.js"></script>
+ -->
+<script type="text/javascript" src="plugin/chosen/chosen.jquery.min.js"></script>
+<!-- <script src="//cdn.bootcss.com/chosen/1.4.2/chosen.jquery.min.js"></script>
+ -->
+<script type="text/javascript" src="plugin/summernote/js/summernote.min.js"></script>
+<!-- <script src="//cdn.bootcss.com/summernote/0.6.16/summernote.min.js"></script> -->
 <script type="text/javascript" src="plugin/summernote/lang/summernote-zh-CN.js"></script>
 <script type="text/javascript" src="plugin/summernote/plugin/summernote-ext-preview.js"></script>
 	
 <script type="text/javascript" src="plugin/bootbox/ext/js/bootboxExt.js"></script>
 
-<!-- <script type="text/javascript" src="plugin/jGrowl/js/jquery.jgrowl.min.js"></script> -->
-<script src="//cdn.bootcss.com/jquery-jgrowl/1.4.3/jquery.jgrowl.min.js"></script>
-
+<script type="text/javascript" src="plugin/jGrowl/js/jquery.jgrowl.min.js"></script>
+<!-- <script src="//cdn.bootcss.com/jquery-jgrowl/1.4.3/jquery.jgrowl.min.js"></script>
+ -->
 <!-- 优化，直接用table处理 -->
 <!-- <script type="text/javascript" src="plugin/datatables/media/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="plugin/datatables/ext/js/dataTablesExt.js"></script> -->
@@ -70,7 +70,7 @@
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?b6d830db139defa52e47fb1dc0018c06";
+  /* hm.src = "//hm.baidu.com/hm.js?b6d830db139defa52e47fb1dc0018c06"; */
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();

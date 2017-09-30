@@ -13,7 +13,7 @@
 	</properties>
 
 	<!-- 发布组件到私服上 -->
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<snapshotRepository>
 			<id>SosoApiSnapshots</id>
 			<url>http://localhost:4080/nexus/content/repositories/SosoApiSnapshots</url>
@@ -23,10 +23,10 @@
 			<id>SosoApiReleases</id>
 			<url>http://localhost:4080/nexus/content/repositories/SosoApiReleases</url>
 		</repository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 	<!-- 从私服上下载构件 -->
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<id>PublicRepositories</id>
 			<name>PublicRepositories</name>
@@ -36,14 +36,14 @@
 			</releases>
 			<snapshots>
 				<enabled>true</enabled>
-				<!-- 更新发生的频率always 或者 never 或者 daily（默认的）或者 interval:X（X是分钟数） -->
+				更新发生的频率always 或者 never 或者 daily（默认的）或者 interval:X（X是分钟数）
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
 		</repository>
-	</repositories>
+	</repositories> -->
 
 	<!-- 从私服上下载插件 -->
-	<pluginRepositories>
+	<!-- <pluginRepositories>
 		<pluginRepository>
 			<id>PublicRepositories</id>
 			<name>PublicRepositories</name>
@@ -55,7 +55,7 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</pluginRepository>
-	</pluginRepositories>
+	</pluginRepositories> -->
 
 	<dependencies>
 		<dependency>
