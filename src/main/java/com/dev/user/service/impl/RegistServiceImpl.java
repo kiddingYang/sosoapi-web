@@ -61,8 +61,8 @@ public class RegistServiceImpl implements RegistService{
 		//保存用户信息
 		Long userId = saveUserInfo(registParamInfo);
 		
-		//发送邮件
-		sendEmail(registParamInfo.getNickName(),registParamInfo.getEmail());
+		// TODO发送邮件
+		//sendEmail(registParamInfo.getNickName(),registParamInfo.getEmail());
 	}
 	
 	//处理邮件发送
@@ -83,7 +83,7 @@ public class RegistServiceImpl implements RegistService{
 		userBasic.setEmail(registParamInfo.getEmail());
 		userBasic.setLocked(false);
 		userBasic.setRegisterIp(registParamInfo.getRegistIp());
-		userBasic.setValid(false);
+		userBasic.setValid(true);
 		userBasic.setRole(UserRole.normal);
 		userBasicService.add(userBasic);
 		

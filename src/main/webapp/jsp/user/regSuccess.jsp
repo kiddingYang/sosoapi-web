@@ -24,7 +24,7 @@
 							<div class="panel-heading">
 						    	<h3 class="panel-title">注册成功</h3>
 						  	</div>
-							<div class="panel-body">
+							<%-- <div class="panel-body">
 								<input id="email" type="hidden" value="${param.email}">
 								<h3>已发送验证邮件到<span style="color: #f76120;">${param.email}</span></h3>
 								<p>请您进入邮箱中点击验证链接完成注册</p>
@@ -32,6 +32,9 @@
 									<button id="forwardActiveBtn" type="button" class="btn btn-lg btn-success" style="weight:30px;">去邮箱验证</button>
 								</p>
 								<p><a id="resendBtn" href="javascript:void(0);">没收到？重新发送</a></p>
+							</div> --%>
+							<div class="panel-body">
+								<a href="/sosoapi-web/forwardLogin.htm">返回登录页面</a>
 							</div>
 							<!-- <div class="panel-footer">
 							</div> -->
