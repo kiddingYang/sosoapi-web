@@ -10,6 +10,7 @@ $(function() {
 	
 	//初始化弹出框的确认btn
 	initSaveMoreBtn();
+	
 });
 
 //初始化请求数据类型下拉框
@@ -175,7 +176,9 @@ function initReqParamTable(){
     });
 }
 
-//加载请求参数
+
+
+// 加载请求参数
 function loadReqInfo(){
 	var param = new Object();
 	param.interId = $("#interId").val();
@@ -291,3 +294,4 @@ function initRowAfterAdded(row,initIndex){
 		initRowIndex("#reqParamTable tbody");
 	}
 }
+

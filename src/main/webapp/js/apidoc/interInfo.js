@@ -15,7 +15,7 @@ function initTabBtn(){
 	$("#reqInfoTab").click(function(){
 		loadReqInfo();
 	});
-
+	
 	$("#respInfoTab").click(function(){
 		loadRespInfo();
 	});

@@ -76,6 +76,12 @@
                             <li class="">
                             	<a id="respInfoTab" href="#respInfo" data-toggle="tab">响应信息</a>
                            	</li>
+                           	<li class="">
+                           		<a id="reqInfoTab4Json" href="#reqInfo4Json" data-toggle="tab">请求信息(Json方式)</a>
+                           	</li>
+                           	<li class="">
+                            	<a id="respInfoTab4Json" href="#respInfo4Json" data-toggle="tab">响应信息(Json方式)</a>
+                           	</li>
                      	</ul>
                             
                       	<div class="tab-content">

@@ -59,7 +59,7 @@
 			<div class="col-lg-12">
 				<div class="modal fade" id="reqExtSchemaModal" tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-dialog">
-						<div class="modal-content">
+						<div class="modal-con1tent">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 								<h4 class="modal-title">自定义结构</h4>
@@ -142,6 +142,7 @@
 		<!-- END MODAL SECTION -->
 	</div>
 </div>
+
 
 <script id="reqParamTmpl" type="text/html">  
 	<tr>
