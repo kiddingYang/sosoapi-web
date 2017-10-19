@@ -98,12 +98,11 @@
                            	</div>
                            	
                            	<div class="tab-pane fade" id="reqInfo4Json">
-                           		<textarea rows="144" cols="100" ></textarea>
-                            	<%-- <jsp:include page="/jsp/apidoc/inter/reqInfo.jsp"/> --%>
+                            	<jsp:include page="/jsp/apidoc/inter/reqInfo4Json.jsp"/>
                            	</div>
                            	
                            	<div class="tab-pane fade" id="respInfo4Json">
-                           		<textarea rows="" cols="" style="width: 600px;height: 300px;"></textarea>
+                           		<jsp:include page="/jsp/apidoc/inter/respInfo4Json.jsp"/>
                            	</div>
                            	
                     	</div>
@@ -122,8 +121,10 @@
     <script type="text/javascript" src="plugin/context-menu/ext/js/jquery.contextmenu.js"></script>
 	<script type="text/javascript" src="plugin/treegrid/ext/js/jquery.treegridExt.js?version=1.0.0"></script>
     <script type="text/javascript" src="js/apidoc/inter/basicInfo.js?version=1.0.1"></script>
+    <script type="text/javascript" src="js/apidoc/inter/reqInfo4Json.js?version=1.0.7"></script>
     <script type="text/javascript" src="js/apidoc/inter/reqInfo.js?version=1.0.7"></script>
     <script type="text/javascript" src="js/apidoc/inter/respInfo.js?version=1.0.10"></script>
+    <script type="text/javascript" src="js/apidoc/inter/respInfo4Json.js?version=1.0.10"></script>
     <script type="text/javascript" src="js/apidoc/interInfo.js?version=1.0.2"></script>
 	<!-- END PAGE LEVEL  SCRIPTS -->
 </body>

@@ -68,6 +68,29 @@ public class InterParamController extends BaseController{
 		return JsonUtils.createSuccess();
 	}
 	
+	
+	/**
+	 * 通过Json方式新增请求参数
+	 * @param request
+	 * @param docId
+	 * @param interId
+	 * @param reqParam
+	 * @return
+	 */
+	@RequestMapping(value = "/json/addByJson.htm",method = RequestMethod.POST)
+	public @ResponseBody Map addByJson(HttpServletRequest request,Long docId,Long interId,String reqJson){
+		ValidateUtils.notNull(interId, ErrorCode.SYS_001,"接口id不能为空");
+		ValidateUtils.notNull(docId, ErrorCode.SYS_001,"文档id不能为空");
+		
+		//List<Map<String,String>> paramList = JsonUtils.toObject(reqParam, new TypeReference<List<Map<String,String>>>(){});
+		
+		//List<InterParam> interParamList = parseParamList(docId,interId, paramList);
+		//interParamService.batchAdd(docId,interId, interParamList);
+		return JsonUtils.createSuccess();
+	}
+	
+	
+	
 	//解析请求参数列表
 	private List<InterParam> parseParamList(Long docId,Long interId,List<Map<String,String>> paramMapList){
 		List<InterParam> result = new ArrayList<InterParam>();
