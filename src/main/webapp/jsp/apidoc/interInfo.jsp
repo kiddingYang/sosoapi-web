@@ -96,6 +96,16 @@
                            	<div class="tab-pane fade" id="respInfo">
                             	<jsp:include page="/jsp/apidoc/inter/respInfo.jsp"/>
                            	</div>
+                           	
+                           	<div class="tab-pane fade" id="reqInfo4Json">
+                           		<textarea rows="144" cols="100" ></textarea>
+                            	<%-- <jsp:include page="/jsp/apidoc/inter/reqInfo.jsp"/> --%>
+                           	</div>
+                           	
+                           	<div class="tab-pane fade" id="respInfo4Json">
+                           		<textarea rows="" cols="" style="width: 600px;height: 300px;"></textarea>
+                           	</div>
+                           	
                     	</div>
                 	</div>
                 </div>
